@@ -13,6 +13,9 @@
                 <div class="pr-5"><strong>15k</strong> followers</div>
                 <div class="pr-5"><strong>0</strong> following</div>
             </div>
+            <div class="pt-4 font-weight-bold">One Wise Life.org</div>
+            <div>I have multiple personalities. So dont dare to think you know me completely</div>
+            <div><a href="#">www.onewiselife.org</a></div>
         </div>
     </div>
 </div>
