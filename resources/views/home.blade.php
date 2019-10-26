@@ -18,5 +18,16 @@
             <div><a href="#">www.onewiselife.org</a></div>
         </div>
     </div>
+    <div class="row pt-5">
+        <div class="col-4">
+            <img src="/svg/insta-1.jpg" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="/svg/insta-2.jpg" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="/svg/insta-3.jpg" class="w-100">
+        </div>
+    </div>
 </div>
 @endsection
