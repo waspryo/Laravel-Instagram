@@ -13,4 +13,9 @@ class PostsController extends Controller
         //　で書ける
         return view('posts.create');
     }
+
+    public function store()
+    {
+        dd(request()->all());
+    }
 }
