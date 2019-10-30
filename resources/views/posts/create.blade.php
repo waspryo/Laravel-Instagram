@@ -30,6 +30,7 @@
                     <strong>{{ $message }}</strong>
 
                     @enderror
+                
                 </div>
                 <div class="row pt-4">
                     <button class="btn btn-primary">Add New Post</button>
