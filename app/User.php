@@ -40,7 +40,7 @@ class User extends Authenticatable
     //ユーザーが複数投稿するから”post”ではなく複数系の”posts”
     public function posts()
     {
-        return $this->hasMany(Post::class);
+        return $this->hasMany(Post::class)->orderBy('created_at','DESC');
     }
 
     public function profile()

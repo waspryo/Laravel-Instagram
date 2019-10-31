@@ -12,7 +12,7 @@
                 <a href="/p/create">Add New Post</a>
             </div>
             <div class="d-flex">
-                <div class="pr-5"><strong>238</strong> posts</div>
+                <div class="pr-5"><strong>{{ $user->posts->count() }}</strong> posts</div>
                 <div class="pr-5"><strong>15k</strong> followers</div>
                 <div class="pr-5"><strong>0</strong> following</div>
             </div>
