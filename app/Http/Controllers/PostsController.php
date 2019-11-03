@@ -38,13 +38,21 @@ class PostsController extends Controller
             'image' => $imagePath
         ]);
 
-        // $post = new \App\Post();
-
-        // $post->caption = $data['caption'];
-        // $post->save();
-
-        // \App\Post::create($data);
-
         return redirect('/profile/' . auth()->user()->id);
+    }
+
+    // \App\(Tablename)を入れることでマッチしないページは404が出る
+    public function show(\App\Post $post)
+
+    // $sports = array(
+    //     'tennis' => $tennis,
+    //     'basketball' => $basketball,
+    //     'soccer' => $soccer,
+    //    );
+       //同じ意味になる
+       
+       // $sports = compact('tennis','basketball','soccer');
+    {
+        return view('posts.show', compact('post'));
     }
 }
