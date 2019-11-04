@@ -34,6 +34,8 @@ class ProfilesController extends Controller
 
             $image = Image::make(public_path("storage/{$imagePath}"))->fit(1000, 1000);
             $image->save();
+            
+            $imageArray = ['image' => $imagePath];
         }
         // dd(array_merge(
         //     $data,
@@ -43,7 +45,8 @@ class ProfilesController extends Controller
         // auth()->***にすることによってその指定のユーザーでないとアクセスまた編集ができない
         auth()->user()->profile->update(array_merge(
             $data,
-            ['image' => $imagePath] //上の情報を処理をした上で追加でする場合の処理
+            $imageArray = []
+             //上の情報を処理をした上で追加でする場合の処理
         ));
 
         return redirect("/profile/{$user->id}");
