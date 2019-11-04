@@ -11,7 +11,11 @@
                 <h1>{{ $user->username }}</h1>
                 <a href="/p/create">Add New Post</a>
             </div>
+
+            @can('update', $user->profile)
             <a href="/profile/{{ $user->id }}/edit">Edit New Post</a>
+            @endcan
+            
             <div class="d-flex">
                 <div class="pr-5"><strong>{{ $user->posts->count() }}</strong> posts</div>
                 <div class="pr-5"><strong>15k</strong> followers</div>
@@ -26,7 +30,7 @@
         @foreach($user->posts as $post)
         <div class="col-4 pb-4">
             <a href="/p/{{ $post->id }}">
-            <img src="/storage/{{ $post->image }}" class="w-100">
+                <img src="/storage/{{ $post->image }}" class="w-100">
             </a>
         </div>
         @endforeach
