@@ -37,6 +37,17 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+   protected static function boot() 
+   {
+       parent::boot();
+
+       static::created(function ($user) {
+        $user->profile()->create([
+            'title' => $user->username,
+        ]);
+       });
+   }
+
     //ユーザーが複数投稿するから”post”ではなく複数系の”posts”
     public function posts()
     {
