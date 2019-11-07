@@ -1834,9 +1834,42 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FollowButton.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/wasp/Desktop/My_Project/freeCodeGram/resources/js/components/FollowButton.vue: Unexpected token (19:8)\n\n\u001b[0m \u001b[90m 17 | \u001b[39m        \u001b[36mreturn\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 18 | \u001b[39m            status\u001b[33m:\u001b[39m  \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 | \u001b[39m        }\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 | \u001b[39m    methods\u001b[33m:\u001b[39m {\u001b[0m\n    at Parser.raise (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:6420:17)\n    at Parser.unexpected (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:7773:16)\n    at Parser.parseExprAtom (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8996:20)\n    at Parser.parseExprSubscripts (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8556:23)\n    at Parser.parseMaybeUnary (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8536:21)\n    at Parser.parseExprOps (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8402:23)\n    at Parser.parseMaybeConditional (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8375:23)\n    at Parser.parseMaybeAssign (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8325:21)\n    at Parser.parseObjectProperty (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9441:101)\n    at Parser.parseObjPropValue (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9466:101)\n    at Parser.parseObjectMember (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9390:10)\n    at Parser.parseObj (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9314:25)\n    at Parser.parseExprAtom (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8939:28)\n    at Parser.parseExprSubscripts (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8556:23)\n    at Parser.parseMaybeUnary (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8536:21)\n    at Parser.parseExprOps (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8402:23)\n    at Parser.parseMaybeConditional (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8375:23)\n    at Parser.parseMaybeAssign (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8325:21)\n    at Parser.parseExpression (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8275:23)\n    at Parser.parseReturnStatement (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10378:28)\n    at Parser.parseStatementContent (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10057:21)\n    at Parser.parseStatement (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10009:17)\n    at Parser.parseBlockOrModuleBlockBody (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10585:25)\n    at Parser.parseBlockBody (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10572:10)\n    at Parser.parseBlock (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10556:10)\n    at Parser.parseFunctionBody (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9584:24)\n    at Parser.parseFunctionBodyAndFinish (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9554:10)\n    at withTopicForbiddingContext (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10717:12)\n    at Parser.withTopicForbiddingContext (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9884:14)\n    at Parser.parseFunction (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:10716:10)\n    at Parser.parseFunctionExpression (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:9032:17)\n    at Parser.parseExprAtom (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8945:21)\n    at Parser.parseExprSubscripts (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8556:23)\n    at Parser.parseMaybeUnary (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8536:21)\n    at Parser.parseExprOps (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8402:23)\n    at Parser.parseMaybeConditional (/Users/wasp/Desktop/My_Project/freeCodeGram/node_modules/@babel/parser/lib/index.js:8375:23)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['userId', 'follows'],
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  data: function data() {
+    return {
+      status: this.follows
+    };
+  },
+  methods: {
+    followUser: function followUser() {
+      var _this = this;
+
+      axios.post('/follow/' + this.userId).then(function (response) {
+        _this.status = !_this.status;
+        console.log(response.data);
+      });
+    }
+  },
+  computed: {
+    buttonText: function buttonText() {
+      return this.status ? 'Unfollow' : 'Follow';
+    }
+  }
+});
 
 /***/ }),
 
@@ -19462,11 +19495,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "button",
-      { staticClass: "btn btn-primary ml-4", on: { click: _vm.followUser } },
-      [_vm._v("Follow")]
-    )
+    _c("button", {
+      staticClass: "btn btn-primary ml-4",
+      domProps: { textContent: _vm._s(_vm.buttonText) },
+      on: { click: _vm.followUser }
+    })
   ])
 }
 var staticRenderFns = []
