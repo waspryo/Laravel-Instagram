@@ -17,9 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::post('follow/{user}', function () {
-    return ['success'];
-});
+Route::post('follow/{user}', 'FollowsController@store');
 
 // ルーティングの順番に気をつける、アクションがない場合に最後の共通アクションを持って来る
 Route::get('/p/create', 'PostsController@create');
